@@ -1,11 +1,16 @@
-Hi there, I'm Valentín Turri 👋
-AI & Data Science Engineer | Transforming engineering problems into data-driven solutions
-
-👨‍💻 About Me
-🚀 Currently working as an AI & Data Science Engineer at Tenaris, leading the development of AI-driven chatbots and NLP tools for technical decision-making.
-🎓 Pursuing a Master's in Data Mining & Knowledge Discovery at the University of Buenos Aires (UBA).
-⚙️ Background in Mechanical Engineering (Master's), bridging the gap between computational modeling, advanced simulations, and machine learning.
-💡 Passionate about extracting value from complex datasets, unsupervised learning, and deploying scalable ML models.
+<h1 align="center">Hi there, I'm Valentín Turri 👋</h1>
+<h3 align="center">AI & Data Science Engineer | Transforming engineering problems into data-driven solutions</h3>
+<p align="center">
+  <a href="https://www.linkedin.com/in/valentin-turri-b8241974/">
+    <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
+  </a>
+</p>
+---
+### 👨‍💻 About Me
+- 🚀 Currently working as an **AI & Data Science Engineer** at **Tenaris**, leading the development of AI-driven chatbots and NLP tools for technical decision-making.
+- 🎓 Pursuing a **Master's in Data Mining & Knowledge Discovery** at the University of Buenos Aires (UBA).
+- ⚙️ Background in **Mechanical Engineering (Master's)**, bridging the gap between computational modeling, advanced simulations, and machine learning.
+- 💡 Passionate about extracting value from complex datasets, unsupervised learning, and deploying scalable ML models.
 ### 🛠️ Tech Stack & Tools
 
 **Languages & Data Science:**  
