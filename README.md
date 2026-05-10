@@ -1,3 +1,6 @@
+Por supuesto, aquí tienes el código exacto. Solo tienes que hacer clic en el botón de copiar (arriba a la derecha del bloque de código) y pegarlo en el `README.md` de tu repositorio `TURRIvalentin`:
+
+```markdown
 <h1 align="center">Hi there, I'm Valentín Turri 👋</h1>
 
 <h3 align="center">AI & Data Science Engineer | Transforming engineering problems into data-driven solutions</h3>
@@ -23,15 +26,22 @@
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![R](https://img.shields.io/badge/r-%23276DC3.svg?style=for-the-badge&logo=r&logoColor=white)
 ![SQL](https://img.shields.io/badge/sql-%23003B57.svg?style=for-the-badge&logo=sqlite&logoColor=white)
+![MATLAB](https://img.shields.io/badge/matlab-%230076A8.svg?style=for-the-badge&logo=mathworks&logoColor=white)
 ![Jupyter Notebook](https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white)
+![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)
 
 **Machine Learning & AI:**  
 ![Scikit-Learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![XGBoost](https://img.shields.io/badge/XGBoost-%23150458.svg?style=for-the-badge)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white)
+![Keras](https://img.shields.io/badge/Keras-%23D00000.svg?style=for-the-badge&logo=Keras&logoColor=white)
 ![NLP](https://img.shields.io/badge/NLP-%23000000.svg?style=for-the-badge)
+![Computer Vision](https://img.shields.io/badge/Computer_Vision-%23000000.svg?style=for-the-badge)
 
 **Data Visualization & Cloud:**  
 ![Power Bi](https://img.shields.io/badge/power_bi-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black)
 ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
 ![Azure](https://img.shields.io/badge/azure-%230072C6.svg?style=for-the-badge&logo=microsoftazure&logoColor=white)
 
@@ -44,4 +54,4 @@
 
 ---
 ⭐️ *From engineering algorithms to predictive models.*
-
+```
