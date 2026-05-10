@@ -17,6 +17,11 @@
 - ⚙️ Background in **Mechanical Engineering (Master's)**, bridging the gap between computational modeling, advanced simulations, and machine learning.
 - 💡 Passionate about extracting value from complex datasets, unsupervised learning, and deploying scalable ML models.
 
+### 🚀 Featured Projects (Live Apps)
+
+- **[📊 Polymarket Early Outcome Predictor](https://polymarket-scorer.streamlit.app/)**: An end-to-end Machine Learning pipeline predicting binary market outcomes. Includes a fully deployed, interactive Streamlit dashboard.
+- **[💼 JobPilot](https://github.com/TURRIvalentin/JobPilot)**: A web-based tool built to optimize and automate data-driven tasks.
+
 ### 🛠️ Tech Stack & Tools
 
 **Languages & Data Science:**  
@@ -37,10 +42,11 @@
 ![Computer Vision](https://img.shields.io/badge/Computer_Vision-000000?style=for-the-badge)
 
 **Data Visualization & Cloud:**  
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white)
 ![Power Bi](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-ffffff?style=for-the-badge&logo=matplotlib&logoColor=black)
 ![Git](https://img.shields.io/badge/Git-F05033?style=for-the-badge&logo=git&logoColor=white)
 ![Azure](https://img.shields.io/badge/Azure-0072C6?style=for-the-badge&logo=microsoftazure&logoColor=white)
+
 ---
 ⭐️ *From engineering algorithms to predictive models.*
-
