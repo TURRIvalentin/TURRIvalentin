@@ -42,8 +42,6 @@
 ![Git](https://img.shields.io/badge/Git-F05033?style=for-the-badge&logo=git&logoColor=white)
 ![Azure](https://img.shields.io/badge/Azure-0072C6?style=for-the-badge&logo=microsoftazure&logoColor=white)
 
-### 📊 GitHub Stats
-
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=TURRIvalentin&show_icons=true&theme=radium" alt="Valentín's GitHub stats" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=TURRIvalentin&layout=compact&theme=radium" alt="Top Languages" />
