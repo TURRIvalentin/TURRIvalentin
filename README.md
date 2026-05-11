@@ -21,7 +21,7 @@
 
 - **[📊 Polymarket Early Outcome Predictor](https://polymarket-scorer.streamlit.app/)**: An end-to-end Machine Learning pipeline predicting binary market outcomes. Includes a fully deployed, interactive Streamlit dashboard.
 - **[💼 JobPilot](https://github.com/TURRIvalentin/JobPilot)**: A web-based tool built to optimize and automate data-driven tasks.
-- **[📘 Timonel-AI-Agent]([https://github.com/TURRIvalentin/JobPilot](https://timonel-ai-agent.streamlit.app/))**: Timonel AI-Agent is an intelligent RAG-based assistant designed to query nautical and cartography PDF documents using natural language. Built with LangChain and ChromaDB, it provides precise answers with direct citations from the source material.
+- **[📘 Timonel-AI-Agent](https://https://timonel-ai-agent.streamlit.app/))**: Timonel AI-Agent is an intelligent RAG-based assistant designed to query nautical and cartography PDF documents using natural language. Built with LangChain and ChromaDB, it provides precise answers with direct citations from the source material.
 
 ### 🛠️ Tech Stack & Tools
 
