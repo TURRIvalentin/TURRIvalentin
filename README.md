@@ -19,6 +19,7 @@
 
 ### 🚀 Featured Projects (Live Apps)
 
+- **[🤝 MiChanga](https://mi-changa.vercel.app)**: Full-stack marketplace for informal jobs ("changas") in Argentina. Real-time chat, JWT auth, postulation system and mutual ratings. Built with React 18 + Node.js + PostgreSQL + Socket.io.
 - **[📊 Polymarket Early Outcome Predictor](https://polymarket-scorer.streamlit.app/)**: An end-to-end Machine Learning pipeline predicting binary market outcomes. Includes a fully deployed, interactive Streamlit dashboard.
 - **[💼 JobPilot](https://github.com/TURRIvalentin/JobPilot)**: A web-based tool built to optimize and automate data-driven tasks.
 - **[📘 Timonel-AI-Agent](https://timonel-ai-agent.streamlit.app/)**: Timonel AI-Agent is an intelligent RAG-based assistant designed to query nautical and cartography PDF documents using natural language. Built with LangChain and ChromaDB, it provides precise answers with direct citations from the source material.
