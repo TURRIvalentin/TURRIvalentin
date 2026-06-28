@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/banner.svg" width="100%" alt="Animated AI Banner">
+</p>
+
 <h1 align="center">Hi there, I'm Valentín Turri 👋</h1>
 
 <h3 align="center">AI & Data Science Engineer | Transforming engineering problems into data-driven solutions</h3>
