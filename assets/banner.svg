@@ -147,13 +147,13 @@
 
   <g opacity=".96">
   <text class="micro" x="76" y="112" font-size="12">MACHINE LEARNING / LLMS / INFERENCE</text>
-- <text class="label" x="74" y="169" font-size="48" font-weight="650">AI ENGINEER</text>
-+ <text class="label" x="74" y="169" font-size="36" font-weight="650">AI ENGINEER &amp; DATA SCIENTIST</text>
+  <text class="label" x="74" y="169" font-size="36" font-weight="650">AI ENGINEER &amp; DATA SCIENTIST</text>
   <text class="sub" x="78" y="205" font-size="15">neural systems / embeddings / transformer architecture</text>
   <path d="M78 232 H328" stroke="url(#softLine)" stroke-width="1"/>
-      <animate attributeName="opacity" values=".24;.78;.32;.6;.24" dur="9s" begin="-3s" repeatCount="indefinite"/>
-    </circle>
-  </g>
+  <circle cx="78" cy="232" r="2" fill="#00D9FF" opacity=".66">
+    <animate attributeName="opacity" values=".24;.78;.32;.6;.24" dur="9s" begin="-3s" repeatCount="indefinite"/>
+  </circle>
+</g>
 
   <g class="netA" style="animation:floatNet 18s ease-in-out infinite">
     <g>
