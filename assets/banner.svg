@@ -1,0 +1,247 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="360" viewBox="0 0 1280 360" role="img" aria-labelledby="title desc">
+  <title id="title">AI Engineer animated neural network banner</title>
+  <desc id="desc">A premium dark graphite animated SVG banner with organic neural network clusters, drifting particles, glowing nodes, and flowing energy pulses for an AI Engineer GitHub profile.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0B0F14"/>
+      <stop offset="45%" stop-color="#111827"/>
+      <stop offset="100%" stop-color="#161B22"/>
+    </linearGradient>
+
+<radialGradient id="blueGlow" cx="73%" cy="42%" r="48%">
+  <stop offset="0%" stop-color="#00D9FF" stop-opacity=".18"/>
+  <stop offset="38%" stop-color="#3B82F6" stop-opacity=".075"/>
+  <stop offset="100%" stop-color="#0B0F14" stop-opacity="0"/>
+</radialGradient>
+
+<radialGradient id="leftFog" cx="23%" cy="57%" r="58%">
+  <stop offset="0%" stop-color="#7DD3FC" stop-opacity=".055"/>
+  <stop offset="45%" stop-color="#3B82F6" stop-opacity=".025"/>
+  <stop offset="100%" stop-color="#0B0F14" stop-opacity="0"/>
+</radialGradient>
+
+<linearGradient id="connectionGradient" gradientUnits="userSpaceOnUse" x1="360" y1="80" x2="1190" y2="285">
+  <stop offset="0%" stop-color="#3B82F6" stop-opacity=".16">
+    <animate attributeName="stop-opacity" values=".10;.24;.12;.18;.10" dur="13s" begin="-5s" repeatCount="indefinite"/>
+  </stop>
+  <stop offset="52%" stop-color="#00D9FF" stop-opacity=".32">
+    <animate attributeName="stop-opacity" values=".18;.42;.20;.34;.18" dur="15s" begin="-9s" repeatCount="indefinite"/>
+  </stop>
+  <stop offset="100%" stop-color="#7DD3FC" stop-opacity=".12">
+    <animate attributeName="stop-opacity" values=".08;.18;.10;.20;.08" dur="11s" begin="-3s" repeatCount="indefinite"/>
+  </stop>
+  <animateTransform attributeName="gradientTransform" type="translate" values="-90 0;130 24;-90 0" dur="18s" begin="-7s" repeatCount="indefinite"/>
+</linearGradient>
+
+<linearGradient id="softLine" x1="0" y1="0" x2="1" y2="0">
+  <stop offset="0%" stop-color="#3B82F6" stop-opacity=".04"/>
+  <stop offset="48%" stop-color="#00D9FF" stop-opacity=".20"/>
+  <stop offset="100%" stop-color="#7DD3FC" stop-opacity=".05"/>
+</linearGradient>
+
+<filter id="softBlur" x="-20%" y="-60%" width="140%" height="220%">
+  <feGaussianBlur stdDeviation="22"/>
+</filter>
+
+<filter id="fogBlur" x="-20%" y="-40%" width="140%" height="180%">
+  <feGaussianBlur stdDeviation="34"/>
+</filter>
+
+<filter id="nodeGlow" x="-260%" y="-260%" width="620%" height="620%">
+  <feGaussianBlur stdDeviation="3.2" result="blur"/>
+  <feColorMatrix in="blur" type="matrix" values="0 0 0 0 0  0 0 0 0 .72  0 0 0 0 1  0 0 0 .72 0" result="cyan"/>
+  <feMerge>
+    <feMergeNode in="cyan"/>
+    <feMergeNode in="SourceGraphic"/>
+  </feMerge>
+</filter>
+
+<filter id="pulseGlow" x="-50%" y="-50%" width="200%" height="200%">
+  <feGaussianBlur stdDeviation="2.6" result="blur"/>
+  <feMerge>
+    <feMergeNode in="blur"/>
+    <feMergeNode in="SourceGraphic"/>
+  </feMerge>
+</filter>
+
+<style>
+  .star{fill:#dbeafe;opacity:.22;animation:twinkle 12s ease-in-out infinite}
+  .p{fill:#7DD3FC;opacity:.22;animation:drift var(--d) ease-in-out infinite alternate, twinkle var(--t) ease-in-out infinite}
+  .line{fill:none;stroke:url(#connectionGradient);stroke-width:1.15;stroke-linecap:round;opacity:.68;stroke-dasharray:5 18;animation:shimmer var(--s,16s) linear infinite}
+  .line.thin{stroke-width:.75;opacity:.46;stroke-dasharray:3 24}
+  .line.deep{opacity:.28;stroke-width:.65;stroke-dasharray:2 18}
+  .pulse{fill:none;stroke:#00D9FF;stroke-width:2.4;stroke-linecap:round;stroke-dasharray:1 420;stroke-dashoffset:420;opacity:0;filter:url(#pulseGlow);animation:pulse var(--pd) cubic-bezier(.35,0,.22,1) infinite}
+  .pulse.accent{stroke:#7DD3FC;stroke-width:1.7}
+  .node{fill:#0B0F14;stroke:#00D9FF;stroke-width:1.4;filter:url(#nodeGlow);animation:breathe var(--bd) ease-in-out infinite}
+  .node.secondary{stroke:#3B82F6;stroke-width:1.1}
+  .node.accent{stroke:#7DD3FC;stroke-width:1.25}
+  .core{fill:#00D9FF;opacity:.62;animation:corePulse var(--bd) ease-in-out infinite}
+  .label{font-family:ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;fill:#E5F6FF;letter-spacing:6px}
+  .sub{font-family:ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;fill:#8FB8D8;letter-spacing:2.4px}
+  .micro{font-family:ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;fill:#5F7F9E;letter-spacing:3px}
+  @keyframes shimmer{to{stroke-dashoffset:-180}}
+  @keyframes pulse{0%,18%{opacity:0;stroke-dashoffset:420}26%{opacity:.9}58%{opacity:.56}78%,100%{opacity:0;stroke-dashoffset:-70}}
+  @keyframes breathe{0%,100%{opacity:.58;stroke-width:1.05}50%{opacity:1;stroke-width:1.75}}
+  @keyframes corePulse{0%,100%{opacity:.26;r:1.6}50%{opacity:.92;r:2.8}}
+  @keyframes twinkle{0%,100%{opacity:.14}45%{opacity:.52}70%{opacity:.25}}
+  @keyframes drift{0%{transform:translate3d(0,0,0)}100%{transform:translate3d(var(--x),var(--y),0)}}
+  @keyframes floatNet{0%,100%{transform:translate(0,0)}50%{transform:translate(-7px,4px)}}
+  @keyframes floatNetTwo{0%,100%{transform:translate(0,0)}50%{transform:translate(6px,-5px)}}
+  @media (prefers-reduced-motion: reduce){
+    .p,.star,.line,.pulse,.node,.core,.netA,.netB{animation-duration:40s!important}
+  }
+</style>
+  </defs>
+
+  <rect width="1280" height="360" fill="url(#bg)"/>
+  <rect width="1280" height="360" fill="url(#blueGlow)"/>
+  <rect width="1280" height="360" fill="url(#leftFog)"/>
+
+  <g filter="url(#fogBlur)" opacity=".48">
+    <path d="M-40 246 C190 190 277 291 447 232 C652 160 779 218 983 142 C1121 91 1232 118 1340 81 L1340 391 L-40 391 Z" fill="#3B82F6" opacity=".08">
+      <animateTransform attributeName="transform" type="translate" values="-16 0;22 -10;-16 0" dur="19s" begin="-8s" repeatCount="indefinite"/>
+    </path>
+    <ellipse cx="820" cy="175" rx="310" ry="76" fill="#00D9FF" opacity=".055">
+      <animate attributeName="rx" values="285;330;292;310;285" dur="16s" begin="-4s" repeatCount="indefinite"/>
+    </ellipse>
+  </g>
+
+  <g opacity=".9">
+    <circle class="star" cx="87" cy="54" r=".8" style="animation-delay:-5s"/>
+    <circle class="star" cx="171" cy="107" r=".7" style="animation-delay:-11s"/>
+    <circle class="star" cx="294" cy="43" r=".9" style="animation-delay:-2s"/>
+    <circle class="star" cx="397" cy="304" r=".65" style="animation-delay:-8s"/>
+    <circle class="star" cx="511" cy="71" r=".8" style="animation-delay:-4s"/>
+    <circle class="star" cx="688" cy="42" r=".7" style="animation-delay:-9s"/>
+    <circle class="star" cx="766" cy="318" r=".75" style="animation-delay:-12s"/>
+    <circle class="star" cx="930" cy="37" r=".9" style="animation-delay:-6s"/>
+    <circle class="star" cx="1094" cy="316" r=".7" style="animation-delay:-13s"/>
+    <circle class="star" cx="1201" cy="74" r=".85" style="animation-delay:-3s"/>
+  </g>
+
+  <g>
+    <circle class="p" cx="45" cy="202" r="1.15" style="--x:18px;--y:-12px;--d:14s;--t:10s;animation-delay:-4s"/>
+    <circle class="p" cx="96" cy="284" r=".9" style="--x:-16px;--y:9px;--d:17s;--t:13s;animation-delay:-9s"/>
+    <circle class="p" cx="142" cy="151" r="1.05" style="--x:21px;--y:7px;--d:19s;--t:11s;animation-delay:-12s"/>
+    <circle class="p" cx="214" cy="70" r=".8" style="--x:-13px;--y:16px;--d:16s;--t:12s;animation-delay:-6s"/>
+    <circle class="p" cx="267" cy="258" r="1.2" style="--x:24px;--y:-10px;--d:18s;--t:9s;animation-delay:-14s"/>
+    <circle class="p" cx="348" cy="123" r=".9" style="--x:-19px;--y:-8px;--d:20s;--t:15s;animation-delay:-5s"/>
+    <circle class="p" cx="421" cy="225" r="1.25" style="--x:15px;--y:13px;--d:15s;--t:12s;animation-delay:-8s"/>
+    <circle class="p" cx="493" cy="96" r=".75" style="--x:18px;--y:-15px;--d:13s;--t:10s;animation-delay:-2s"/>
+    <circle class="p" cx="551" cy="301" r="1" style="--x:-21px;--y:8px;--d:19s;--t:14s;animation-delay:-11s"/>
+    <circle class="p" cx="604" cy="147" r="1.2" style="--x:22px;--y:10px;--d:17s;--t:13s;animation-delay:-7s"/>
+    <circle class="p" cx="642" cy="236" r=".85" style="--x:-14px;--y:-18px;--d:14s;--t:11s;animation-delay:-3s"/>
+    <circle class="p" cx="711" cy="88" r="1" style="--x:13px;--y:16px;--d:18s;--t:12s;animation-delay:-13s"/>
+    <circle class="p" cx="748" cy="191" r=".75" style="--x:-16px;--y:14px;--d:16s;--t:9s;animation-delay:-10s"/>
+    <circle class="p" cx="801" cy="281" r="1.25" style="--x:18px;--y:-13px;--d:20s;--t:14s;animation-delay:-15s"/>
+    <circle class="p" cx="858" cy="68" r=".95" style="--x:-20px;--y:-7px;--d:15s;--t:11s;animation-delay:-5s"/>
+    <circle class="p" cx="899" cy="222" r="1.1" style="--x:23px;--y:11px;--d:18s;--t:13s;animation-delay:-8s"/>
+    <circle class="p" cx="947" cy="128" r=".7" style="--x:-14px;--y:19px;--d:13s;--t:10s;animation-delay:-6s"/>
+    <circle class="p" cx="996" cy="306" r="1.05" style="--x:17px;--y:-9px;--d:19s;--t:15s;animation-delay:-12s"/>
+    <circle class="p" cx="1039" cy="81" r=".85" style="--x:-18px;--y:12px;--d:17s;--t:12s;animation-delay:-9s"/>
+    <circle class="p" cx="1088" cy="182" r="1.3" style="--x:21px;--y:-16px;--d:16s;--t:10s;animation-delay:-4s"/>
+    <circle class="p" cx="1132" cy="262" r=".8" style="--x:-13px;--y:10px;--d:15s;--t:11s;animation-delay:-7s"/>
+    <circle class="p" cx="1176" cy="124" r="1" style="--x:16px;--y:15px;--d:18s;--t:13s;animation-delay:-14s"/>
+    <circle class="p" cx="1231" cy="213" r=".9" style="--x:-22px;--y:-11px;--d:20s;--t:14s;animation-delay:-10s"/>
+  </g>
+
+  <g opacity=".96">
+    <text class="micro" x="76" y="112" font-size="12">MACHINE LEARNING / LLMS / INFERENCE</text>
+    <text class="label" x="74" y="169" font-size="48" font-weight="650">AI ENGINEER</text>
+    <text class="sub" x="78" y="205" font-size="15">neural systems / embeddings / transformer architecture</text>
+    <path d="M78 232 H328" stroke="url(#softLine)" stroke-width="1"/>
+    <circle cx="78" cy="232" r="2" fill="#00D9FF" opacity=".66">
+      <animate attributeName="opacity" values=".24;.78;.32;.6;.24" dur="9s" begin="-3s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <g class="netA" style="animation:floatNet 18s ease-in-out infinite">
+    <g>
+      <path id="c1" class="line" d="M468 198 C535 122 596 146 656 94 S790 93 842 139"/>
+      <path id="c2" class="line thin" d="M512 244 C602 210 629 145 711 167 C782 186 818 238 902 207"/>
+      <path id="c3" class="line" d="M585 69 C646 126 671 212 755 224 C829 235 878 175 950 153"/>
+      <path id="c4" class="line deep" d="M455 147 C548 171 600 292 704 285 C797 278 820 98 930 85"/>
+      <path id="c5" class="line thin" d="M653 94 C674 145 681 199 711 167 C747 128 795 118 842 139"/>
+      <path id="c6" class="line" d="M704 285 C734 235 782 235 822 259 C878 291 944 261 1002 222"/>
+      <path id="c7" class="line deep" d="M585 69 C559 124 528 174 512 244"/>
+      <path id="c8" class="line thin" d="M755 224 C777 182 812 158 842 139 C875 118 908 105 930 85"/>
+      <path class="pulse" d="M468 198 C535 122 596 146 656 94 S790 93 842 139" style="--pd:12s;animation-delay:-4s"/>
+      <path class="pulse accent" d="M512 244 C602 210 629 145 711 167 C782 186 818 238 902 207" style="--pd:15s;animation-delay:-10s"/>
+      <path class="pulse" d="M704 285 C734 235 782 235 822 259 C878 291 944 261 1002 222" style="--pd:17s;animation-delay:-7s"/>
+    </g>
+
+<g>
+  <circle class="node accent" cx="468" cy="198" r="7.2" style="--bd:9s;animation-delay:-2s"/>
+  <circle class="core" cx="468" cy="198" r="2" style="--bd:9s;animation-delay:-2s"/>
+  <circle class="node secondary" cx="512" cy="244" r="5.8" style="--bd:11s;animation-delay:-7s"/>
+  <circle class="core" cx="512" cy="244" r="1.8" style="--bd:11s;animation-delay:-7s"/>
+  <circle class="node" cx="585" cy="69" r="6.4" style="--bd:12s;animation-delay:-5s"/>
+  <circle class="core" cx="585" cy="69" r="1.9" style="--bd:12s;animation-delay:-5s"/>
+  <circle class="node" cx="656" cy="94" r="8.4" style="--bd:10s;animation-delay:-9s"/>
+  <circle class="core" cx="656" cy="94" r="2.4" style="--bd:10s;animation-delay:-9s"/>
+  <circle class="node secondary" cx="711" cy="167" r="6.6" style="--bd:13s;animation-delay:-4s"/>
+  <circle class="core" cx="711" cy="167" r="2" style="--bd:13s;animation-delay:-4s"/>
+  <circle class="node accent" cx="704" cy="285" r="5.7" style="--bd:8s;animation-delay:-6s"/>
+  <circle class="core" cx="704" cy="285" r="1.7" style="--bd:8s;animation-delay:-6s"/>
+  <circle class="node" cx="755" cy="224" r="7.6" style="--bd:12s;animation-delay:-1s"/>
+  <circle class="core" cx="755" cy="224" r="2.2" style="--bd:12s;animation-delay:-1s"/>
+  <circle class="node secondary" cx="842" cy="139" r="6.9" style="--bd:9s;animation-delay:-8s"/>
+  <circle class="core" cx="842" cy="139" r="2" style="--bd:9s;animation-delay:-8s"/>
+  <circle class="node accent" cx="902" cy="207" r="5.4" style="--bd:10s;animation-delay:-3s"/>
+  <circle class="core" cx="902" cy="207" r="1.6" style="--bd:10s;animation-delay:-3s"/>
+  <circle class="node secondary" cx="930" cy="85" r="5.9" style="--bd:11s;animation-delay:-10s"/>
+  <circle class="core" cx="930" cy="85" r="1.7" style="--bd:11s;animation-delay:-10s"/>
+  <circle class="node" cx="1002" cy="222" r="6.8" style="--bd:12s;animation-delay:-6s"/>
+  <circle class="core" cx="1002" cy="222" r="2" style="--bd:12s;animation-delay:-6s"/>
+</g>
+  </g>
+
+  <g class="netB" style="animation:floatNetTwo 20s ease-in-out infinite">
+    <g>
+      <path id="d1" class="line thin" d="M890 292 C934 237 984 232 1024 185 S1117 115 1191 137"/>
+      <path id="d2" class="line" d="M862 96 C926 123 936 194 1006 207 C1086 221 1127 178 1214 223"/>
+      <path id="d3" class="line deep" d="M950 153 C1000 98 1070 65 1134 89 C1182 107 1213 153 1240 192"/>
+      <path id="d4" class="line thin" d="M1002 222 C1052 241 1083 289 1146 269 C1192 254 1208 235 1214 223"/>
+      <path id="d5" class="line deep" d="M1024 185 C1060 144 1097 119 1134 89"/>
+      <path id="d6" class="line" d="M842 139 C907 166 939 120 1000 125 C1054 129 1080 181 1024 185"/>
+      <path class="pulse accent" d="M950 153 C1000 98 1070 65 1134 89 C1182 107 1213 153 1240 192" style="--pd:14s;animation-delay:-11s"/>
+      <path class="pulse" d="M862 96 C926 123 936 194 1006 207 C1086 221 1127 178 1214 223" style="--pd:16s;animation-delay:-5s"/>
+      <path class="pulse accent" d="M890 292 C934 237 984 232 1024 185 S1117 115 1191 137" style="--pd:19s;animation-delay:-13s"/>
+    </g>
+    <g>
+      <circle class="node secondary" cx="862" cy="96" r="5.1" style="--bd:10s;animation-delay:-4s"/>
+      <circle class="core" cx="862" cy="96" r="1.5" style="--bd:10s;animation-delay:-4s"/>
+      <circle class="node accent" cx="890" cy="292" r="5.7" style="--bd:13s;animation-delay:-9s"/>
+      <circle class="core" cx="890" cy="292" r="1.8" style="--bd:13s;animation-delay:-9s"/>
+      <circle class="node secondary" cx="950" cy="153" r="4.9" style="--bd:9s;animation-delay:-7s"/>
+      <circle class="core" cx="950" cy="153" r="1.4" style="--bd:9s;animation-delay:-7s"/>
+      <circle class="node" cx="1000" cy="125" r="6.5" style="--bd:12s;animation-delay:-2s"/>
+      <circle class="core" cx="1000" cy="125" r="1.9" style="--bd:12s;animation-delay:-2s"/>
+      <circle class="node accent" cx="1006" cy="207" r="7.7" style="--bd:11s;animation-delay:-10s"/>
+      <circle class="core" cx="1006" cy="207" r="2.2" style="--bd:11s;animation-delay:-10s"/>
+      <circle class="node secondary" cx="1024" cy="185" r="4.8" style="--bd:8s;animation-delay:-6s"/>
+      <circle class="core" cx="1024" cy="185" r="1.4" style="--bd:8s;animation-delay:-6s"/>
+      <circle class="node" cx="1134" cy="89" r="6.3" style="--bd:12s;animation-delay:-5s"/>
+      <circle class="core" cx="1134" cy="89" r="1.9" style="--bd:12s;animation-delay:-5s"/>
+      <circle class="node accent" cx="1146" cy="269" r="5.5" style="--bd:10s;animation-delay:-8s"/>
+      <circle class="core" cx="1146" cy="269" r="1.6" style="--bd:10s;animation-delay:-8s"/>
+      <circle class="node secondary" cx="1191" cy="137" r="5.8" style="--bd:9s;animation-delay:-3s"/>
+      <circle class="core" cx="1191" cy="137" r="1.7" style="--bd:9s;animation-delay:-3s"/>
+      <circle class="node" cx="1214" cy="223" r="6.1" style="--bd:11s;animation-delay:-1s"/>
+      <circle class="core" cx="1214" cy="223" r="1.8" style="--bd:11s;animation-delay:-1s"/>
+      <circle class="node accent" cx="1240" cy="192" r="4.7" style="--bd:13s;animation-delay:-11s"/>
+      <circle class="core" cx="1240" cy="192" r="1.4" style="--bd:13s;animation-delay:-11s"/>
+    </g>
+  </g>
+
+  <g opacity=".42" filter="url(#softBlur)">
+    <path d="M607 179 C718 64 876 73 992 167 C1075 235 1168 225 1265 170" fill="none" stroke="#00D9FF" stroke-width="13" stroke-linecap="round" opacity=".09">
+      <animate attributeName="opacity" values=".045;.12;.06;.09;.045" dur="17s" begin="-6s" repeatCount="indefinite"/>
+    </path>
+    <path d="M411 259 C604 181 750 340 969 257 C1068 219 1146 206 1272 250" fill="none" stroke="#3B82F6" stroke-width="18" stroke-linecap="round" opacity=".06">
+      <animate attributeName="opacity" values=".03;.085;.04;.07;.03" dur="20s" begin="-12s" repeatCount="indefinite"/>
+    </path>
+  </g>
+
+  <rect x="0" y="0" width="1280" height="360" fill="none" stroke="#7DD3FC" stroke-opacity=".045"/>
+</svg>
