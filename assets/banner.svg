@@ -9,8 +9,8 @@
     </linearGradient>
 
 <radialGradient id="blueGlow" cx="73%" cy="42%" r="48%">
-  <stop offset="0%" stop-color="#00D9FF" stop-opacity=".18"/>
-  <stop offset="38%" stop-color="#3B82F6" stop-opacity=".075"/>
+  <stop offset="0%" stop-color="#00D9FF" stop-opacity=".216"/>
+  <stop offset="38%" stop-color="#3B82F6" stop-opacity=".09"/>
   <stop offset="100%" stop-color="#0B0F14" stop-opacity="0"/>
 </radialGradient>
 
@@ -104,6 +104,13 @@
     <ellipse cx="820" cy="175" rx="310" ry="76" fill="#00D9FF" opacity=".055">
       <animate attributeName="rx" values="285;330;292;310;285" dur="16s" begin="-4s" repeatCount="indefinite"/>
     </ellipse>
+    <ellipse cx="925" cy="174" rx="360" ry="94" fill="#00D9FF" opacity=".045">
+      <animate attributeName="opacity" values=".025;.065;.035;.055;.025" dur="18s" begin="-11s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="translate" values="-18 4;18 -6;-18 4" dur="20s" begin="-6s" repeatCount="indefinite"/>
+    </ellipse>
+    <ellipse cx="1010" cy="210" rx="230" ry="64" fill="#7DD3FC" opacity=".032">
+      <animate attributeName="rx" values="205;250;218;238;205" dur="14s" begin="-5s" repeatCount="indefinite"/>
+    </ellipse>
   </g>
 
   <g opacity=".9">
@@ -143,17 +150,31 @@
     <circle class="p" cx="1132" cy="262" r=".8" style="--x:-13px;--y:10px;--d:15s;--t:11s;animation-delay:-7s"/>
     <circle class="p" cx="1176" cy="124" r="1" style="--x:16px;--y:15px;--d:18s;--t:13s;animation-delay:-14s"/>
     <circle class="p" cx="1231" cy="213" r=".9" style="--x:-22px;--y:-11px;--d:20s;--t:14s;animation-delay:-10s"/>
+    <circle class="p" cx="381" cy="66" r=".72" style="--x:14px;--y:17px;--d:18s;--t:16s;animation-delay:-15s"/>
+    <circle class="p" cx="456" cy="319" r=".95" style="--x:-20px;--y:-12px;--d:21s;--t:12s;animation-delay:-6s"/>
+    <circle class="p" cx="676" cy="123" r=".82" style="--x:17px;--y:-14px;--d:19s;--t:15s;animation-delay:-17s"/>
+    <circle class="p" cx="738" cy="54" r=".68" style="--x:-15px;--y:18px;--d:16s;--t:13s;animation-delay:-4s"/>
+    <circle class="p" cx="833" cy="332" r=".9" style="--x:20px;--y:-16px;--d:22s;--t:14s;animation-delay:-18s"/>
+    <circle class="p" cx="972" cy="58" r=".78" style="--x:13px;--y:19px;--d:18s;--t:11s;animation-delay:-9s"/>
+    <circle class="p" cx="1058" cy="246" r=".88" style="--x:-18px;--y:13px;--d:20s;--t:16s;animation-delay:-12s"/>
+    <circle class="p" cx="1118" cy="49" r=".7" style="--x:16px;--y:-15px;--d:17s;--t:12s;animation-delay:-7s"/>
+    <circle class="p" cx="1262" cy="302" r=".85" style="--x:-21px;--y:8px;--d:21s;--t:15s;animation-delay:-16s"/>
+    <circle class="p" cx="526" cy="184" r=".72" style="--x:15px;--y:-13px;--d:20s;--t:14s;animation-delay:-19s"/>
+    <circle class="p" cx="790" cy="113" r=".66" style="--x:-17px;--y:16px;--d:18s;--t:13s;animation-delay:-11s"/>
+    <circle class="p" cx="914" cy="286" r=".78" style="--x:19px;--y:-10px;--d:21s;--t:15s;animation-delay:-5s"/>
+    <circle class="p" cx="1158" cy="185" r=".7" style="--x:-14px;--y:-17px;--d:17s;--t:12s;animation-delay:-13s"/>
+    <circle class="p" cx="1218" cy="46" r=".62" style="--x:18px;--y:14px;--d:19s;--t:16s;animation-delay:-8s"/>
   </g>
 
   <g opacity=".96">
-  <text class="micro" x="76" y="112" font-size="12">MACHINE LEARNING / LLMS / INFERENCE</text>
-  <text class="label" x="74" y="169" font-size="36" font-weight="650">AI ENGINEER &amp; DATA SCIENTIST</text>
-  <text class="sub" x="78" y="205" font-size="15">neural systems / embeddings / transformer architecture</text>
-  <path d="M78 232 H328" stroke="url(#softLine)" stroke-width="1"/>
-  <circle cx="78" cy="232" r="2" fill="#00D9FF" opacity=".66">
-    <animate attributeName="opacity" values=".24;.78;.32;.6;.24" dur="9s" begin="-3s" repeatCount="indefinite"/>
-  </circle>
-</g>
+    <text class="micro" x="76" y="109" font-size="12">LLMs / AI AGENTS / MACHINE LEARNING</text>
+    <text class="label" x="74" y="181" font-size="34" font-weight="700">AI ENGINEER &amp; DATA SCIENTIST</text>
+    <text class="sub" x="78" y="211" font-size="15">neural systems / embeddings / transformer architecture</text>
+    <path d="M78 232 H328" stroke="url(#softLine)" stroke-width="1"/>
+    <circle cx="78" cy="232" r="2" fill="#00D9FF" opacity=".66">
+      <animate attributeName="opacity" values=".24;.78;.32;.6;.24" dur="9s" begin="-3s" repeatCount="indefinite"/>
+    </circle>
+  </g>
 
   <g class="netA" style="animation:floatNet 18s ease-in-out infinite">
     <g>
@@ -165,9 +186,15 @@
       <path id="c6" class="line" d="M704 285 C734 235 782 235 822 259 C878 291 944 261 1002 222"/>
       <path id="c7" class="line deep" d="M585 69 C559 124 528 174 512 244"/>
       <path id="c8" class="line thin" d="M755 224 C777 182 812 158 842 139 C875 118 908 105 930 85"/>
+      <path id="c9" class="line thin" d="M548 162 C604 119 642 132 690 121 C738 111 773 81 821 88"/>
+      <path id="c10" class="line deep" d="M613 269 C654 231 690 224 731 246 C771 268 802 291 850 276"/>
+      <path id="c11" class="line thin" d="M821 88 C828 121 835 151 876 166 C915 180 953 185 982 171"/>
+      <path id="c12" class="line deep" d="M548 162 C595 190 598 236 613 269 C628 301 664 310 704 285"/>
       <path class="pulse" d="M468 198 C535 122 596 146 656 94 S790 93 842 139" style="--pd:12s;animation-delay:-4s"/>
       <path class="pulse accent" d="M512 244 C602 210 629 145 711 167 C782 186 818 238 902 207" style="--pd:15s;animation-delay:-10s"/>
       <path class="pulse" d="M704 285 C734 235 782 235 822 259 C878 291 944 261 1002 222" style="--pd:17s;animation-delay:-7s"/>
+      <path class="pulse accent" d="M548 162 C604 119 642 132 690 121 C738 111 773 81 821 88" style="--pd:14s;animation-delay:-12s"/>
+      <path class="pulse" d="M613 269 C654 231 690 224 731 246 C771 268 802 291 850 276" style="--pd:18s;animation-delay:-3s"/>
     </g>
 
 <g>
@@ -193,6 +220,18 @@
   <circle class="core" cx="930" cy="85" r="1.7" style="--bd:11s;animation-delay:-10s"/>
   <circle class="node" cx="1002" cy="222" r="6.8" style="--bd:12s;animation-delay:-6s"/>
   <circle class="core" cx="1002" cy="222" r="2" style="--bd:12s;animation-delay:-6s"/>
+  <circle class="node secondary" cx="548" cy="162" r="5.2" style="--bd:10s;animation-delay:-11s"/>
+  <circle class="core" cx="548" cy="162" r="1.5" style="--bd:10s;animation-delay:-11s"/>
+  <circle class="node accent" cx="613" cy="269" r="5.6" style="--bd:12s;animation-delay:-8s"/>
+  <circle class="core" cx="613" cy="269" r="1.7" style="--bd:12s;animation-delay:-8s"/>
+  <circle class="node secondary" cx="690" cy="121" r="4.8" style="--bd:9s;animation-delay:-3s"/>
+  <circle class="core" cx="690" cy="121" r="1.4" style="--bd:9s;animation-delay:-3s"/>
+  <circle class="node" cx="821" cy="88" r="5.5" style="--bd:11s;animation-delay:-9s"/>
+  <circle class="core" cx="821" cy="88" r="1.7" style="--bd:11s;animation-delay:-9s"/>
+  <circle class="node accent" cx="850" cy="276" r="5.1" style="--bd:13s;animation-delay:-5s"/>
+  <circle class="core" cx="850" cy="276" r="1.5" style="--bd:13s;animation-delay:-5s"/>
+  <circle class="node secondary" cx="982" cy="171" r="4.6" style="--bd:10s;animation-delay:-7s"/>
+  <circle class="core" cx="982" cy="171" r="1.35" style="--bd:10s;animation-delay:-7s"/>
 </g>
   </g>
 
@@ -204,9 +243,14 @@
       <path id="d4" class="line thin" d="M1002 222 C1052 241 1083 289 1146 269 C1192 254 1208 235 1214 223"/>
       <path id="d5" class="line deep" d="M1024 185 C1060 144 1097 119 1134 89"/>
       <path id="d6" class="line" d="M842 139 C907 166 939 120 1000 125 C1054 129 1080 181 1024 185"/>
+      <path id="d7" class="line thin" d="M1000 125 C1040 99 1082 116 1104 151 C1128 189 1168 196 1214 223"/>
+      <path id="d8" class="line deep" d="M1066 294 C1098 257 1126 238 1168 242 C1201 245 1224 221 1240 192"/>
+      <path id="d9" class="line thin" d="M1134 89 C1162 75 1194 82 1220 105 C1247 129 1250 163 1240 192"/>
       <path class="pulse accent" d="M950 153 C1000 98 1070 65 1134 89 C1182 107 1213 153 1240 192" style="--pd:14s;animation-delay:-11s"/>
       <path class="pulse" d="M862 96 C926 123 936 194 1006 207 C1086 221 1127 178 1214 223" style="--pd:16s;animation-delay:-5s"/>
       <path class="pulse accent" d="M890 292 C934 237 984 232 1024 185 S1117 115 1191 137" style="--pd:19s;animation-delay:-13s"/>
+      <path class="pulse" d="M1000 125 C1040 99 1082 116 1104 151 C1128 189 1168 196 1214 223" style="--pd:13s;animation-delay:-8s"/>
+      <path class="pulse accent" d="M1066 294 C1098 257 1126 238 1168 242 C1201 245 1224 221 1240 192" style="--pd:18s;animation-delay:-15s"/>
     </g>
     <g>
       <circle class="node secondary" cx="862" cy="96" r="5.1" style="--bd:10s;animation-delay:-4s"/>
@@ -231,6 +275,14 @@
       <circle class="core" cx="1214" cy="223" r="1.8" style="--bd:11s;animation-delay:-1s"/>
       <circle class="node accent" cx="1240" cy="192" r="4.7" style="--bd:13s;animation-delay:-11s"/>
       <circle class="core" cx="1240" cy="192" r="1.4" style="--bd:13s;animation-delay:-11s"/>
+      <circle class="node accent" cx="1066" cy="294" r="4.9" style="--bd:12s;animation-delay:-10s"/>
+      <circle class="core" cx="1066" cy="294" r="1.45" style="--bd:12s;animation-delay:-10s"/>
+      <circle class="node secondary" cx="1104" cy="151" r="5.2" style="--bd:9s;animation-delay:-6s"/>
+      <circle class="core" cx="1104" cy="151" r="1.55" style="--bd:9s;animation-delay:-6s"/>
+      <circle class="node" cx="1168" cy="242" r="5.4" style="--bd:11s;animation-delay:-2s"/>
+      <circle class="core" cx="1168" cy="242" r="1.6" style="--bd:11s;animation-delay:-2s"/>
+      <circle class="node secondary" cx="1220" cy="105" r="4.6" style="--bd:10s;animation-delay:-8s"/>
+      <circle class="core" cx="1220" cy="105" r="1.35" style="--bd:10s;animation-delay:-8s"/>
     </g>
   </g>
 
