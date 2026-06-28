@@ -2,19 +2,6 @@
 
 <h1 align="center">Hi there, I'm Valentín Turri 👋</h1>
 
-## 📊 GitHub Stats
-
-<p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=TURRIvalentin&show_icons=true&theme=github_dark&hide_border=true&count_private=true&include_all_commits=true&cache_seconds=1800&v=1" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=TURRIvalentin&layout=compact&theme=github_dark&hide_border=true" />
-</p>
-
-## 🔥 GitHub Streak
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=TURRIvalentin&theme=github-dark-blue&hide_border=true" />
-</p>
-
 <h3 align="center">AI & Data Science Engineer | Transforming engineering problems into data-driven solutions</h3>
 
 <p align="center">
@@ -31,6 +18,19 @@
 - 🎓 Pursuing a **Master's in Data Mining & Knowledge Discovery** at the University of Buenos Aires (UBA).
 - ⚙️ Background in **Mechanical Engineering (Master's)**, bridging the gap between computational modeling, advanced simulations, and machine learning.
 - 💡 Passionate about extracting value from complex datasets, unsupervised learning, and deploying scalable ML models.
+
+## 📊 GitHub Stats
+
+<p align="center">
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=TURRIvalentin&show_icons=true&theme=github_dark&hide_border=true&count_private=true&include_all_commits=true&cache_seconds=1800&v=1" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=TURRIvalentin&layout=compact&theme=github_dark&hide_border=true" />
+</p>
+
+## 🔥 GitHub Streak
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=TURRIvalentin&theme=github-dark-blue&hide_border=true" />
+</p>
 
 ### 🚀 Featured Projects (Live Apps)
 
