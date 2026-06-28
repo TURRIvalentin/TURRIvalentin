@@ -19,19 +19,6 @@
 - ⚙️ Background in **Mechanical Engineering (Master's)**, bridging the gap between computational modeling, advanced simulations, and machine learning.
 - 💡 Passionate about extracting value from complex datasets, unsupervised learning, and deploying scalable ML models.
 
-## 📊 GitHub Stats
-
-<p align="center">
-  <img height="185" src="https://github-readme-stats.vercel.app/api?username=TURRIvalentin&show_icons=true&theme=github_dark&hide_border=true&count_private=true&include_all_commits=true&hide_rank=true" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=TURRIvalentin&layout=compact&theme=github_dark&hide_border=true&hide=jupyter%20notebook,html" />
-</p>
-
-## 🔥 GitHub Streak
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=TURRIvalentin&theme=github-dark-blue&hide_border=true" />
-</p>
-
 ### 🚀 Featured Projects (Live Apps)
 
 - **[🤝 MiChanga](https://mi-changa.vercel.app)**: Full-stack marketplace for informal jobs ("changas") in Argentina. Real-time chat, JWT auth, postulation system and mutual ratings. Built with React 18 + Node.js + PostgreSQL + Socket.io.
