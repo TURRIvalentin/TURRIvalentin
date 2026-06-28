@@ -1,6 +1,4 @@
-<p align="center">
-  <img src="assets/banner.svg" width="100%" alt="Animated AI Banner">
-</p>
+<img src="assets/banner.svg" alt="Animated AI Banner" width="100%">
 
 <h1 align="center">Hi there, I'm Valentín Turri 👋</h1>
 
