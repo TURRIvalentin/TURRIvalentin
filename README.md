@@ -15,7 +15,7 @@
 ### 👨‍💻 About Me
 
 - 🚀 Currently working as an **AI & Data Science Engineer** at **Tenaris**, leading the development of AI-driven chatbots and NLP tools for technical decision-making.
-- 🎓 Pursuing a **Master's in Data Mining & Knowledge Discovery** at the University of Buenos Aires (UBA).
+- 🎓 **Master's in Data Mining & Knowledge Discovery** at the University of Buenos Aires (UBA).
 - ⚙️ Background in **Mechanical Engineering (Master's)**, bridging the gap between computational modeling, advanced simulations, and machine learning.
 - 💡 Passionate about extracting value from complex datasets, unsupervised learning, and deploying scalable ML models.
 
