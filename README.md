@@ -19,9 +19,11 @@
 - ⚙️ Background in **Mechanical Engineering (Master's)**, bridging the gap between computational modeling, advanced simulations, and machine learning.
 - 💡 Passionate about extracting value from complex datasets, building end-to-end ML/LLM systems, and deploying scalable models to production.
 
+
 ### ⚙️ Computational Mechanics & AI Applied to Engineering
 
 - ⚙️ **[Torque-Tension Analytical Model](https://torque-tension-analytical-model-irulbj7hd9ivksvwe3nkuz.streamlit.app/)**: Streamlit implementation of a published SPE engineering paper, modeling the torque-tension envelope of oilfield casing connections — a direct bridge between my mechanical engineering background and applied data science.
+
   
 ### 🚀 Featured Projects (Live Apps)
 
