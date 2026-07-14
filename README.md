@@ -22,7 +22,7 @@
 
 ### ⚙️ Computational Mechanics & AI Applied to Engineering
 
-- ⚙️ **[Torque-Tension Analytical Model](https://torque-tension-analytical-model-irulbj7hd9ivksvwe3nkuz.streamlit.app/)**: Streamlit implementation of a published SPE engineering paper, modeling the torque-tension envelope of oilfield casing connections — a direct bridge between my mechanical engineering background and applied data science.
+- ⚙️ **[Torque-Tension Analytical Model](https://torque-tension-analytical-model-irulbj7hd9ivksvwe3nkuz.streamlit.app/)**: Streamlit app implementing the screw-jack and von Mises torque-tension interaction model (SPE-232499-MS) for OCTG casing connections. Computes the operating envelope from thread geometry, material properties, and make-up delta turns.
 
   
 ### 🚀 Featured Projects (Live Apps)
