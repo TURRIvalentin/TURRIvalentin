@@ -21,7 +21,7 @@
 
 ### ⚙️ Computational Mechanics & AI Applied to Engineering
 
-- ⚙️ **OCTG Torque–Tension Analytical Model** *(repo link coming soon)*: Streamlit implementation of a published SPE engineering paper, modeling the torque-tension envelope of oilfield casing connections — a direct bridge between my mechanical engineering background and applied data science.
+- ⚙️ **[Torque-Tension Analytical Model](https://torque-tension-analytical-model-irulbj7hd9ivksvwe3nkuz.streamlit.app/)**: Streamlit implementation of a published SPE engineering paper, modeling the torque-tension envelope of oilfield casing connections — a direct bridge between my mechanical engineering background and applied data science.
   
 ### 🚀 Featured Projects (Live Apps)
 
