@@ -19,6 +19,10 @@
 - ⚙️ Background in **Mechanical Engineering (Master's)**, bridging the gap between computational modeling, advanced simulations, and machine learning.
 - 💡 Passionate about extracting value from complex datasets, building end-to-end ML/LLM systems, and deploying scalable models to production.
 
+### ⚙️ Computational Mechanics & AI Applied to Engineering
+
+- ⚙️ **OCTG Torque–Tension Analytical Model** *(repo link coming soon)*: Streamlit implementation of a published SPE engineering paper, modeling the torque-tension envelope of oilfield casing connections — a direct bridge between my mechanical engineering background and applied data science.
+  
 ### 🚀 Featured Projects (Live Apps)
 
 - 📈 **[BTC Price Predictor](https://github.com/TURRIvalentin/BTC-Price-Predictor)**: End-to-end ML pipeline (LSTM + Monte Carlo Dropout) forecasting Bitcoin prices with confidence bands. Containerized with Docker, deployed on AWS ECS Fargate with a CI/CD pipeline via GitHub Actions. [Live demo](https://bt-7dff3b7ba8f246528d893ace7e964833.ecs.us-east-2.on.aws)
@@ -26,7 +30,6 @@
 - **[💼 JobPilot](https://job-pilot-kappa.vercel.app/)**: AI-powered job search platform for LATAM professionals. Anthropic Claude parses uploaded CVs into structured profiles and scores every job listing 0–100 with an LLM-generated justification, aggregating openings from multiple job APIs. Built with FastAPI, Next.js and PostgreSQL, with JWT auth and 87 automated tests.
 - **[🤝 MiChanga](https://mi-changa.vercel.app)**: Full-stack marketplace for informal jobs ("changas") in Argentina. Real-time chat, JWT auth, postulation system and mutual ratings. Built with React 18 + Node.js + PostgreSQL + Socket.io.
 - **[📊 Polymarket Early Outcome Predictor](https://polymarket-scorer.streamlit.app/)**: An end-to-end Machine Learning pipeline predicting binary prediction-market outcomes from only the first 7 days of price activity (AUC 0.89 vs. 0.85 for the market's own implied-probability baseline). Fully deployed, interactive Streamlit dashboard.
-- ⚙️ **OCTG Torque–Tension Analytical Model** *(repo link coming soon)*: Streamlit implementation of a published SPE engineering paper, modeling the torque-tension envelope of oilfield casing connections — a direct bridge between my mechanical engineering background and applied data science.
 
 
 
